@@ -1,0 +1,4 @@
+README
+======
+
+This contains an XSLT 2 stylesheet to convert WordPress blog posts (exported XML format) into Octopress markdown files.
