@@ -8,7 +8,7 @@ It's intended for sites with lots of posts, since the main value is generating r
 Setup
 -----
 
-First, install [Saxon](http://saxon.sourceforge.net/) or some other XSLT processor. On Mac with Homebrew you can do `brew install saxon`.
+First, install [Saxon](http://saxon.sourceforge.net/) or some other XSLT processor. On Mac with [Homebrew](http://brew.sh/) you can do `brew install saxon`.
 
 To get the WordPress XML file, go to Dashboard &rarr; Tools &rarr; Export. Then drop that file in the wordpress2octopress root directory.
 
@@ -24,7 +24,7 @@ Limitations
 
 I wrote this as a quick and dirty script to migrate my personal blog. So it does 80% of the work, but not everything.
 
-* It doesn't convert your WordPress HTML to Markdown. Fortunately Octopress can display HTML, but if you want Markdown, you'll need to handle that yourself.
+* It doesn't convert your WordPress HTML to [Markdown](http://daringfireball.net/projects/markdown/). Fortunately Octopress can display HTML, but if you want Markdown, you'll need to handle that yourself.
 * It doesn't currently handle tags or comments. I'm planning to do those shortly as I have lots of tags and comments I need to migrate (plan to migrate the comments to [Disqus](http://disqus.com/)), but not doing it yet. [This](http://www.jotschi.de/2013/01/12/wordpress-to-jekyll.html) looks pretty promising though.
 * It doesn't copy your images to new locations.
 * It doesn't add `<!-- more -->` comments.
