@@ -1,5 +1,5 @@
-WordPress-2-Octopress
-=====================
+WordPress to Octopress
+======================
 
 This contains an XSLT 2 stylesheet to convert WordPress blog posts (exported XML format) into Octopress markdown files.
 

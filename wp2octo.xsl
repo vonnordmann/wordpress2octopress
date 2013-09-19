@@ -1,7 +1,7 @@
 <xsl:stylesheet version="2.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-    xmlns:wp="http://wordpress.org/export/1.2/">
+	xmlns:wp="http://wordpress.org/export/1.2/">
 
 	<xsl:output method="text" />
 
