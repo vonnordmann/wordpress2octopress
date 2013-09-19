@@ -1,0 +1,1 @@
+saxon -o:octo.txt springinpractice.wordpress.2013-09-18.xml wp2octo.xsl
